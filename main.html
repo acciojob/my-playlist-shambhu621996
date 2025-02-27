@@ -11,13 +11,16 @@
 		h1,h2{
 			text-align:center;
 		}
-		video,audio{
+		.player_one,.player_two{
 			background-color: rgb(255, 255, 255);
 			padding:20px; 
 			border-radius:5px;
 		}
 		a{
 			text-decoration-line: none;
+		}
+		ul{
+		list-style-type: none	
 		}
 	</style>
 </head>
@@ -35,13 +38,12 @@
 		<li>song 4</li>
 		<li>song 5</li>
 	</ul>
+		<a target: _blank></a>
 	</div>
-	
-		<a href="http://google.com" target: _blank>link</a>
 		<h2>Now Playing...</h2>
-	<video controls><source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4"></video>
+	<video class="player_one" controls><source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4"></video>
 		<h2>MP3 songs</h2>
-	<audio controls><source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mp3"></audio>
+	<audio class="player_two" controls><source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mp3"></audio>
 </body>
 
 </html>
